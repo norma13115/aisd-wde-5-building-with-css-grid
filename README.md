@@ -1,5 +1,7 @@
 # Building with CSS Grid
+![Screenshot of the project](assets/images/example.png)
 
+## Description
 This guide will help you create a responsive layout using CSS Grid. You'll learn how to set up your HTML and CSS files, include the necessary boilerplate code, and add CSS Grid code step-by-step.
 
 ## Prerequisites
