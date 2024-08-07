@@ -2,7 +2,7 @@
 ![Screenshot of the project](assets/images/example.png)
 
 ## Description
-This guide will help you create a responsive layout using CSS Grid. You'll learn how to set up your HTML and CSS files, include the necessary boilerplate code, and add CSS Grid code step-by-step.
+This assignment will help you create a responsive layout using CSS Grid. You'll learn how to set up your HTML and CSS files, include the necessary boilerplate code, and add CSS Grid code step-by-step.
 
 ## Prerequisites
 
@@ -136,8 +136,8 @@ grid_layout_project
    ```
 
 7. **Testing Your Layout:**
-   - Open `index.html` in your web browser to see the grid layout in action.
    - Resize the browser window to see how the grid adapts to different screen sizes.
+   - Copy and paste the HTML boxes a few more times to see the grid expand and wrap into the next line. Resize the window to see the grid automatically resize.
 
 ## AI Assistance
 
