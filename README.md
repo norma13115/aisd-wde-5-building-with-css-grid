@@ -1,4 +1,5 @@
-# Building with CSS Grid
+# WDE05 Building with CSS Grid
+
 ![Screenshot of the project](assets/images/example.png)
 
 ## Description
