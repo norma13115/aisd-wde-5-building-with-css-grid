@@ -170,9 +170,6 @@ grid_layout_project
 7. **Testing Your Layout:**
    - Resize the browser window to see how the grid adapts to different screen sizes.
    - Copy and paste the HTML boxes a few more times to see the grid expand and wrap into the next line. Resize the window to see the grid automatically resize.
-
-   **Explanation:**
-
    - This step is crucial for testing the responsiveness of your grid layout. By resizing the browser window and adding more boxes, you can observe how the grid behaves across different screen sizes, ensuring that the layout remains consistent and functional on any device.
 
 ## AI Assistance
