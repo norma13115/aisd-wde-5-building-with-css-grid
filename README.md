@@ -1,35 +1,29 @@
-
-# WDE05 Building with CSS Grid
+# Building with CSS Grid
 
 ![Screenshot of the project](assets/images/example.png)
 
-## Description
+## Description 📄
 This assignment will help you create a responsive layout using CSS Grid. You'll learn how to set up your HTML and CSS files, include the necessary boilerplate code, and add CSS Grid code step-by-step.
 
-## Prerequisites
+## Expected Project Structure 🏗️
 
-- Basic knowledge of HTML and CSS
-
-## Project Structure
-
-```
+```plaintext
 grid_layout_project
 │   index.html
 │   styles.css
 ```
 
-## Steps
+## Instructions ✅
 
-1. **Create HTML and CSS Files:**
+## 1. **Create the Project Folder and Files**
+- [ ] Create a folder named `grid_layout_project` to store all your project files.
+- [ ] Create a new HTML file named `index.html`. This will be your main HTML file.
+- [ ] Create a new CSS file named `styles.css`. This file will contain the CSS used to style your HTML content.
 
-   - Create a new HTML file named `index.html`.
-   - Create a new CSS file named `styles.css`.
+## 2. **Add HTML Boilerplate**
+Now that you have your files set up, start by adding the basic HTML5 boilerplate.
 
-   **Explanation:** These two files are the core components of your project. `index.html` is where you'll write the structure and content of your webpage, while `styles.css` will contain all the styles that will be applied to the HTML elements. By separating HTML and CSS into different files, you follow a best practice that makes your code easier to maintain and update.
-
-2. **Add Boilerplate Code to HTML:**
-
-   - Open `index.html` and add the following boilerplate code:
+- [ ] Open your currently empty `index.html` file and add the following code to it.
 
    ```html
    <!DOCTYPE html>
@@ -46,17 +40,17 @@ grid_layout_project
    </html>
    ```
 
-   **Explanation:** The HTML boilerplate is a standard structure that forms the foundation of any HTML document. It includes:
+**Explanation:** Declares the document as HTML5 and sets up the essential metadata and styles. It includes:
 
-   - `<!DOCTYPE html>`: Declares the document type and version of HTML.
-   - `<html lang="en">`: The root element of the HTML page, with a `lang` attribute specifying the language.
-   - `<head>`: Contains meta-information about the document, including the character set, viewport settings for responsive design, and the title of the page.
-   - `<link rel="stylesheet" href="styles.css" />`: Links the external CSS file to the HTML document, allowing the styles defined in `styles.css` to be applied.
-   - `<body>`: The container for all the visible content on the page.
+- `<!DOCTYPE html>`: Declares the document type and version of HTML.
+- `<html lang="en">`: The root element of the HTML page, with a `lang` attribute specifying the language.
+- `<head>`: Contains meta-information about the document, including the character set, viewport settings for responsive design, and the title of the page.
+- `<link rel="stylesheet" href="styles.css" />`: Links the external CSS file to the HTML document, allowing the styles defined in `styles.css` to be applied.
+- `<body>`: The container for all the visible content on the page.
 
-3. **Add Body Content to HTML:**
+## 3. **Add Body Content to HTML**
 
-   - In `index.html` between the `<body>` tags, add the following content:
+- [ ] In `index.html` between the `<body> </body>` tags, add the following content:
 
    ```html
        <h2>Basic Concepts of Grid Layout</h2>
@@ -70,15 +64,15 @@ grid_layout_project
        </div>
    ```
 
-   **Explanation:** This block of HTML defines the main content of your page:
+**Explanation:** This block of HTML defines the main content of your page:
 
-   - `<h2>Basic Concepts of Grid Layout</h2>`: A heading that introduces the section of the page.
-   - `<div class="grid-container">`: A `div` element with the class `grid-container` that will serve as the parent container for the grid layout.
-   - Inside the grid container, there are six `div` elements with the class `box` and unique classes (`box1`, `box2`, etc.). These `div`s represent the grid items that will be styled and positioned using CSS Grid.
+- `<h2>Basic Concepts of Grid Layout</h2>`: A heading that introduces the section of the page.
+- `<div class="grid-container">`: A `div` element with the class `grid-container` that will serve as the parent container for the grid layout.
+- Inside the grid container, there are six `div` elements with the class `box` and unique classes (`box1`, `box2`, etc.). These `div`s represent the grid items that will be styled and positioned using CSS Grid.
 
-4. **Basic Styling:**
+## 4. **Add Basic Styling**
 
-   - Open `styles.css` and add the following code:
+- [ ] Open `styles.css` and add the following code:
 
    ```css
    body {
@@ -100,14 +94,14 @@ grid_layout_project
    }
    ```
 
-   **Explanation:** This CSS provides the initial styling for your page:
+**Explanation:** This CSS provides the initial styling for your page:
 
-   - The `body` selector applies global styles to the entire page, including font settings, margin and padding resets, flexbox properties for centering content, and a background color.
-   - The `h1` selector styles the main heading, adjusting its margins, font size, and color to enhance readability and aesthetics.
+- The `body` selector applies global styles to the entire page, including font settings, margin and padding resets, flexbox properties for centering content, and a background color.
+- The `h1` selector styles the main heading, adjusting its margins, font size, and color to enhance readability and aesthetics.
 
-5. **Setting Up the Grid Layout:**
+## 5. **Setting Up the Grid Layout:**
 
-   - Add the following CSS to `styles.css` to create a responsive grid layout:
+- [ ] Add the following CSS to `styles.css` to create a responsive grid layout:
 
    ```css
    .grid-container {
@@ -133,14 +127,14 @@ grid_layout_project
    }
    ```
 
-   **Explanation:**
+**Explanation:**
 
-   - `.grid-container`: This class defines a grid container, transforming the `div` into a flexible grid layout. The `grid-template-columns` property uses the `repeat()` function to create responsive columns that automatically adjust based on available space. The `gap` property adds space between grid items, and the `padding`, `max-width`, and `width` properties control the overall size and spacing of the grid container.
-   - `.box`: This class is applied to each grid item, ensuring they are displayed with centered content. The `display: flex;` property is used to align and justify the content within each box, making sure it appears centered. The boxes have a fixed height, a bold font, white text color, and a border with rounded corners for a polished appearance.
+- `.grid-container`: This class defines a grid container, transforming the `div` into a flexible grid layout. The `grid-template-columns` property uses the `repeat()` function to create responsive columns that automatically adjust based on available space. The `gap` property adds space between grid items, and the `padding`, `max-width`, and `width` properties control the overall size and spacing of the grid container.
+- `.box`: This class is applied to each grid item, ensuring they are displayed with centered content. The `display: flex;` property is used to align and justify the content within each box, making sure it appears centered. The boxes have a fixed height, a bold font, white text color, and a border with rounded corners for a polished appearance.
 
-6. **Adding Colors to the Boxes:**
+## 6. **Adding Colors to the Boxes**
 
-   - Add the following CSS to `styles.css` to style the individual boxes:
+- [ ] Add the following CSS to `styles.css` to style the individual boxes:
 
    ```css
    .box1 {
@@ -163,23 +157,43 @@ grid_layout_project
    } /* Cyan */
    ```
 
-   **Explanation:**
+**Explanation:**
 
-   - These CSS classes (`.box1`, `.box2`, etc.) apply distinct background colors to each of the boxes within the grid. The colors are chosen to make each box stand out, enhancing the visual appeal and making it easy to distinguish between different grid items.
+- These CSS classes (`.box1`, `.box2`, etc.) apply distinct background colors to each of the boxes within the grid. The colors are chosen to make each box stand out, enhancing the visual appeal and making it easy to distinguish between different grid items.
 
-7. **Testing Your Layout:**
-   - Resize the browser window to see how the grid adapts to different screen sizes.
-   - Copy and paste the HTML boxes a few more times to see the grid expand and wrap into the next line. Resize the window to see the grid automatically resize.
-   - This step is crucial for testing the responsiveness of your grid layout. By resizing the browser window and adding more boxes, you can observe how the grid behaves across different screen sizes, ensuring that the layout remains consistent and functional on any device.
+## 7. **Testing Your Layout**
+By resizing the browser window and adding more boxes, you can observe how the grid behaves across different screen sizes, ensuring that the layout remains consistent and functional on any device.
 
-## AI Assistance
+- [ ] Resize the browser window to see how the grid adapts to different screen sizes.
+- [ ] Copy and paste the HTML boxes a few more times to see the grid expand and wrap into the next line.
+- [ ] Resize the window to see the grid automatically resize. This step is crucial for testing the responsiveness of your grid layout.
+
+## 8. **Commit and Push to Github**
+- [ ] Commit and push your work to Github.
+
+# Conclusion 📄
+
+In this activity, you explored the power of CSS Grid by defining a flexible grid structure.
+
+You learned how to control both rows and columns, apply consistent spacing, and style grid items effectively.
+
+The exercise highlighted how CSS Grid allows for easy adaptation to different screen sizes, providing a robust tool for building complex, adaptable web layouts.
 
 If you have any questions or need further explanations, feel free to ask the AI for help. Here are some examples of what you might ask:
 
 - "How do I create a grid layout with CSS Grid?"
 - "How can I ensure my layout is responsive?"
 
-Good luck, and have fun building with the grid!
+Good luck, and have fun building with CSS grid!
+
+##
+
+### Solution codebase 👀
+🛑 **Only use this as a reference** 🛑
+
+💾 **Not something to copy and paste** 💾
+
+**Note:**  This lab references a solution file located [here](https://github.com/HackerUSA-CE/aisd-wde-5-building-with-css-grid/tree/solution) (link not shown).
 
 ---
 
