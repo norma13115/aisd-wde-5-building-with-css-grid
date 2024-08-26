@@ -3,7 +3,7 @@
 ![Screenshot of the project](assets/images/example.png)
 
 ## Description 📄
-This assignment will help you create a responsive layout using CSS Grid. You'll learn how to set up your HTML and CSS files, include the necessary boilerplate code, and add CSS Grid code step-by-step.
+In this assignment we will work together to create a responsive layout using CSS Grid. You'll learn how to set up your HTML and CSS files, include the necessary boilerplate code, and add CSS Grid code step-by-step.
 
 ## Expected Project Structure 🏗️
 
@@ -35,18 +35,13 @@ Now that you have your files set up, start by adding the basic HTML5 boilerplate
        <link rel="stylesheet" href="styles.css" />
      </head>
      <body>
-       <!-- Your Grid Div Code Goes Here  -->
+       <!-- Your Grid Code Goes Here  -->
      </body>
    </html>
    ```
 
-**Explanation:** Declares the document as HTML5 and sets up the essential metadata and styles. It includes:
-
-- `<!DOCTYPE html>`: Declares the document type and version of HTML.
-- `<html lang="en">`: The root element of the HTML page, with a `lang` attribute specifying the language.
-- `<head>`: Contains meta-information about the document, including the character set, viewport settings for responsive design, and the title of the page.
-- `<link rel="stylesheet" href="styles.css" />`: Links the external CSS file to the HTML document, allowing the styles defined in `styles.css` to be applied.
-- `<body>`: The container for all the visible content on the page.
+**Explanation:** 
+- This section sets up the document as HTML5 and includes essential metadata and styles. It declares the document type, specifies the language, links to an external CSS file, and contains meta-information along with the main content of the page within the `<body>` tag.
 
 ## 3. **Add Body Content to HTML**
 
@@ -64,11 +59,10 @@ Now that you have your files set up, start by adding the basic HTML5 boilerplate
        </div>
    ```
 
-**Explanation:** This block of HTML defines the main content of your page:
-
-- `<h2>Basic Concepts of Grid Layout</h2>`: A heading that introduces the section of the page.
-- `<div class="grid-container">`: A `div` element with the class `grid-container` that will serve as the parent container for the grid layout.
-- Inside the grid container, there are six `div` elements with the class `box` and unique classes (`box1`, `box2`, etc.). These `div`s represent the grid items that will be styled and positioned using CSS Grid.
+**Explanation:** 
+-  This block of `HTML` defines the main content of your page, introducing the grid layout section with a heading. 
+It includes a `div` element with the class grid-container as the parent for six grid items, each represented by div elements with unique classes.
+These grid items will be styled and positioned using CSS Grid.
 
 ## 4. **Add Basic Styling**
 
@@ -94,10 +88,9 @@ Now that you have your files set up, start by adding the basic HTML5 boilerplate
    }
    ```
 
-**Explanation:** This CSS provides the initial styling for your page:
+**Explanation:** 
 
-- The `body` selector applies global styles to the entire page, including font settings, margin and padding resets, flexbox properties for centering content, and a background color.
-- The `h1` selector styles the main heading, adjusting its margins, font size, and color to enhance readability and aesthetics.
+- This CSS sets the global styles for the page, including font settings, margin resets, and flexbox centering in the body selector. The `h1` selector adjusts the main heading's margins, font size, and color for enhanced readability.
 
 ## 5. **Setting Up the Grid Layout:**
 
@@ -128,9 +121,7 @@ Now that you have your files set up, start by adding the basic HTML5 boilerplate
    ```
 
 **Explanation:**
-
-- `.grid-container`: This class defines a grid container, transforming the `div` into a flexible grid layout. The `grid-template-columns` property uses the `repeat()` function to create responsive columns that automatically adjust based on available space. The `gap` property adds space between grid items, and the `padding`, `max-width`, and `width` properties control the overall size and spacing of the grid container.
-- `.box`: This class is applied to each grid item, ensuring they are displayed with centered content. The `display: flex;` property is used to align and justify the content within each box, making sure it appears centered. The boxes have a fixed height, a bold font, white text color, and a border with rounded corners for a polished appearance.
+- The `.grid-container` class creates a flexible grid layout with responsive columns, spacing, and controlled size. The `.box` class centers content in each grid item using flexbox, with a fixed height, bold text, and rounded borders for a clean appearance.
 
 ## 6. **Adding Colors to the Boxes**
 
