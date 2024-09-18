@@ -3,7 +3,7 @@
 ![Screenshot of the project](assets/images/example.png)
 
 ## Description 📄
-In this assignment we will work together to create a responsive layout using CSS Grid. You'll learn how to set up your HTML and CSS files, include the necessary boilerplate code, and add CSS Grid code step-by-step.
+In this assignment you will create a responsive layout using CSS Grid. You'll learn how to set up your HTML and CSS files, include the necessary boilerplate code, and add CSS Grid code step-by-step.
 
 ## Expected Project Structure 🏗️
 
